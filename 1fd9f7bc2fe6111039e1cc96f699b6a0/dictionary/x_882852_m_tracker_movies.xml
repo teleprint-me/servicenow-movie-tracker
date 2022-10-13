@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Movies" max_length="40" name="x_882852_m_tracker_movies" type="collection">
         <element label="Comment" max_length="65536" name="m_comment" type="html"/>
-        <element attributes="encode_utf8=false" label="Created by" max_length="32" name="m_created_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Created by" mandatory="true" max_length="32" name="m_created_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date watched" max_length="40" name="m_date_watched" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Genre" max_length="40" name="m_genre" type="choice">
             <choice/>
         </element>
@@ -11,12 +12,16 @@
         <element label="Runtime" max_length="40" name="m_runtime" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="255" name="m_title" type="string"/>
         <element label="Watched" max_length="40" name="m_watched" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Watched by" max_length="32" name="m_watched_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
-            <element name="m_created_by"/>
+            <element name="m_watched_by"/>
         </index>
         <index name="index2">
+            <element name="m_created_by"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

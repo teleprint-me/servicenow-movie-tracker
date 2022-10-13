@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="df464c892f2a111039e1cc96f699b640" sys_domain="global" table="x_882852_m_tracker_movies" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f464c892f2a111039e1cc96f699b675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_882852_m_tracker_movies" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">df464c892f2a111039e1cc96f699b640</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">ac95c8492f2a111039e1cc96f699b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:32:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:35:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c0708c92f2a111039e1cc96f699b6a1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_882852_m_tracker_movies" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">df464c892f2a111039e1cc96f699b640</sys_ui_form>
+            <sys_ui_section caption="Tracker" display_value="Tracker" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">bc0708c92f2a111039e1cc96f699b660</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:35:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b464c892f2a111039e1cc96f699b676</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_882852_m_tracker_movies" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">df464c892f2a111039e1cc96f699b640</sys_ui_form>
+            <sys_ui_section caption="Comment" display_value="Comment" name="x_882852_m_tracker_movies" sys_domain="global" view="Default view">13464c892f2a111039e1cc96f699b640</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:35:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_882852_m_tracker_movies</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df464c892f2a111039e1cc96f699b640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_882852_m_tracker_movies</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_df464c892f2a111039e1cc96f699b640</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:32:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

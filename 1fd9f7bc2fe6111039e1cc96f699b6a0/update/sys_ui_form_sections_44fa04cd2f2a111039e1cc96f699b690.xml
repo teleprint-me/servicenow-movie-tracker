@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="44fa04cd2f2a111039e1cc96f699b690" sys_domain="global" table="x_882852_m_tracker_movies" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:52:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4fa04cd2f2a111039e1cc96f699b692</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_882852_m_tracker_movies" name="x_882852_m_tracker_movies" sys_domain="global" view="7bea04cd2f2a111039e1cc96f699b68a">44fa04cd2f2a111039e1cc96f699b690</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_882852_m_tracker_movies" sys_domain="global" view="7bea04cd2f2a111039e1cc96f699b68a">ccfa04cd2f2a111039e1cc96f699b68e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:52:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:52:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80fa04cd2f2a111039e1cc96f699b693</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_882852_m_tracker_movies" name="x_882852_m_tracker_movies" sys_domain="global" view="7bea04cd2f2a111039e1cc96f699b68a">44fa04cd2f2a111039e1cc96f699b690</sys_ui_form>
+            <sys_ui_section caption="Tracker" display_value="Tracker" name="x_882852_m_tracker_movies" sys_domain="global" view="7bea04cd2f2a111039e1cc96f699b68a">08fa04cd2f2a111039e1cc96f699b68f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:52:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_882852_m_tracker_movies</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-13 01:52:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44fa04cd2f2a111039e1cc96f699b690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_882852_m_tracker_movies</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_44fa04cd2f2a111039e1cc96f699b690</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-13 01:52:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Movie user" name="Movie_user">7bea04cd2f2a111039e1cc96f699b68a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
