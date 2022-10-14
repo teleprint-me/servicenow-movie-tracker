@@ -3,92 +3,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>fce0e8812faa111039e1cc96f699b66a</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>34fd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>m_title</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>70e0e8812faa111039e1cc96f699b66b</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>b4fd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>m_release_date</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <element>m_runtime</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>f0e0e8812faa111039e1cc96f699b66b</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>38fd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>m_rating</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>74e0e8812faa111039e1cc96f699b66b</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>b8fd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>m_genre</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <element>m_release_date</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>f4e0e8812faa111039e1cc96f699b66b</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>3cfd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>m_runtime</element>
-            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74e0e8812faa111039e1cc96f699b66a</list_id>
+            <element>m_genre</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
-            <sys_id>78e0e8812faa111039e1cc96f699b66b</sys_id>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>bcfd021d2fae511039e1cc96f699b69b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_date_watched</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>30fd021d2fae511039e1cc96f699b69c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_watched_by</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>b0fd021d2fae511039e1cc96f699b69c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_created_by</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">78fd021d2fae511039e1cc96f699b69a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
+            <sys_id>34fd021d2fae511039e1cc96f699b69c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +147,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-13 03:28:48</sys_created_on>
+            <sys_created_on>2022-10-14 06:03:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>74e0e8812faa111039e1cc96f699b66a</sys_id>
+            <sys_id>78fd021d2fae511039e1cc96f699b69a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_882852_m_tracker_movies</sys_name>
             <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
@@ -113,7 +158,7 @@
             <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
             <sys_update_name>sys_ui_list_x_882852_m_tracker_movies_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-13 03:28:48</sys_updated_on>
+            <sys_updated_on>2022-10-14 06:03:47</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
