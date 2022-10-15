@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Autofill form fields based on the given title using TMDB REST API</description>
+        <field>m_title</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TMDB REST API</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || oldValue === newValue) {
+        return;
+    }
+
+    var meta = {
+        method: 'GET',
+        headers: {
+            'content-type': 'application/json'
+        },
+        base: 'https://api.themoviedb.org/3',
+        api_key: '',
+        query: newValue,
+        page: 1,
+        id: 1,
+        search: function(query) {
+            query = query || this.query;
+            return (
+                this.base +
+                '/search/movie' +
+                '?page=' +
+                this.page +
+                '&query=' +
+                query.split(' ').join('+') +
+                '&api_key=' +
+                this.api_key
+            );
+        },
+        movie: function(id) {
+            id = id || this.id;
+            return this.base + '/movie/' + id + '?api_key=' + this.api_key;
+        },
+    };
+
+	if (!meta.api_key) {
+		g_form.addInfoMessage("API Key is unset: A TMDB API Key is required to enable the TMDB REST API Client Script.");
+		return;
+	}
+
+    var request = function(method, url, data) {
+        var promise = new Promise(function(resolve, reject) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.responseType = 'json';
+            xhr.setRequestHeader('content-type', 'application/json');
+            xhr.onload = function() {
+                if (xhr.status >= 400) {
+                    reject(xhr.response);
+                } else {
+                    resolve(xhr.response);
+                }
+            };
+            xhr.onerror = function() {
+                reject('Something went wrong!');
+            };
+            xhr.send(JSON.stringify(data));
+        });
+        return promise;
+    };
+
+    var search = request(meta.method, meta.search(newValue))
+        .then(function(response) {
+            for (var i = 0; i < response.results.length; i++) {
+                if (
+                    meta.query.toLowerCase() ==
+                    response.results[i].title.toLowerCase()
+                ) {
+                    return response.results[i];
+                }
+            }
+        })
+        .catch(function(error) {
+            g_form.addErrorMessage(error);
+        });
+
+    var movie = search.then(function(result) {
+        return request(meta.method, meta.movie(result.id))
+            .then(function(response) {
+                return response;
+            })
+            .catch(function(error) {
+                g_form.addErrorMessage(error);
+            });
+    });
+
+    movie
+        .then(function(content) {
+            if (oldValue !== newValue && newValue !== content.title) {
+                g_form.setValue('m_title', content.title);
+                g_form.setValue('m_rating', content.vote_average);
+                g_form.setValue('m_runtime', content.runtime || '0');
+                g_form.setValue('m_release_date', content.release_date);
+                for (var i = 0; i < content.genres.length; i++) {
+                    var label = content.genres[i].name;
+                    var value = content.genres[i].name
+                        .split(' ')
+                        .join('_')
+                        .toLowerCase();
+                    g_form.addOption('m_genre', value, label);
+                }
+                g_form.setValue('m_short_description', content.tagline);
+                g_form.setValue('m_comment', content.overview);
+            }
+        })
+        .catch(function(error) {
+            g_form.addErrorMessage(error);
+        });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-14 23:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3a30ea52f66111039e1cc96f699b620</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TMDB REST API</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sys_script_client_d3a30ea52f66111039e1cc96f699b620</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 00:05:06</sys_updated_on>
+        <table>x_882852_m_tracker_movies</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
