@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>m_liked</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:18:47</sys_created_on>
+        <sys_id>cc3bde392f22111039e1cc96f699b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m_liked</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cc3bde392f22111039e1cc96f699b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:18:47</sys_updated_on>
+        <table>x_882852_m_tracker_movies</table>
+        <ui_policy display_value="Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker">b9aa16792f22111039e1cc96f699b694</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</application>
+        <file_path/>
+        <instance_id>7cadfd0fdb5e881049eac59705961910</instance_id>
+        <instance_name>dev97000</instance_name>
+        <name>sys_ui_policy_action_cc3bde392f22111039e1cc96f699b631</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>m_liked</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-15 20:18:47</sys_created_on><sys_id>cc3bde392f22111039e1cc96f699b631</sys_id><sys_mod_count>0</sys_mod_count><sys_name>m_liked</sys_name><sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package><sys_policy/><sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope><sys_update_name>sys_ui_policy_action_cc3bde392f22111039e1cc96f699b631</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-15 20:18:47</sys_updated_on><table>x_882852_m_tracker_movies</table><ui_policy display_value="Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker">b9aa16792f22111039e1cc96f699b694</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>731240143</payload_hash>
+        <record_name>m_liked</record_name>
+        <reverted_from/>
+        <source>52450c452f2a111039e1cc96f699b6de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:18:47</sys_created_on>
+        <sys_id>073bde392f22111039e1cc96f699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183dd4c95e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:18:47</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4f3bde3979221110f6d9d00e0b65fa36</update_guid>
+        <update_guid_history>4f3bde3979221110f6d9d00e0b65fa36:731240143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:20:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>14f880c71aa548fca220c585221a1324</sys_id>
+        <sys_metadata>cc3bde392f22111039e1cc96f699b631</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m_liked</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_parent display_value="">b9aa16792f22111039e1cc96f699b694</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_scope_delete display_value="">16cf1b481d4a45c08cff820dc1845b69</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_cc3bde392f22111039e1cc96f699b631</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_cc3bde392f22111039e1cc96f699b631">073bde392f22111039e1cc96f699b637</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:20:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_882852_m_tracker_movies">m_watched_byISEMPTY^EQ<item endquery="false" field="m_watched_by" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:17:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9aa16792f22111039e1cc96f699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sys_ui_policy_b9aa16792f22111039e1cc96f699b694</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:17:11</sys_updated_on>
+        <table>x_882852_m_tracker_movies</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</application>
+        <file_path/>
+        <instance_id>7cadfd0fdb5e881049eac59705961910</instance_id>
+        <instance_name>dev97000</instance_name>
+        <name>sys_ui_policy_b9aa16792f22111039e1cc96f699b694</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_882852_m_tracker_movies"&gt;m_watched_byISEMPTY^EQ&lt;item endquery="false" field="m_watched_by" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-15 20:17:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b9aa16792f22111039e1cc96f699b694&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Movie Tracker" source="x_882852_m_tracker"&gt;1fd9f7bc2fe6111039e1cc96f699b6a0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Movie Tracker"&gt;1fd9f7bc2fe6111039e1cc96f699b6a0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_b9aa16792f22111039e1cc96f699b694&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-15 20:17:11&lt;/sys_updated_on&gt;&lt;table&gt;x_882852_m_tracker_movies&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1433681355</payload_hash>
+        <record_name>Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker</record_name>
+        <reverted_from/>
+        <source>52450c452f2a111039e1cc96f699b6de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:17:11</sys_created_on>
+        <sys_id>d3da52792f22111039e1cc96f699b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183dd4b1dc70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:17:11</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>1fda5279b522111017dbd573d0c36257</update_guid>
+        <update_guid_history>1fda5279b522111017dbd573d0c36257:-1433681355</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 20:20:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>10e0d032772f438886a28904ebff5510</sys_id>
+        <sys_metadata>b9aa16792f22111039e1cc96f699b694</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disable Watched, Liked, and Date watched when Watched by is empty in Movie Tracker</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_parent display_value="Movies">670448092f2a111039e1cc96f699b6d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_scope_delete display_value="">16cf1b481d4a45c08cff820dc1845b69</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_b9aa16792f22111039e1cc96f699b694</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_b9aa16792f22111039e1cc96f699b694">d3da52792f22111039e1cc96f699b658</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 20:20:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

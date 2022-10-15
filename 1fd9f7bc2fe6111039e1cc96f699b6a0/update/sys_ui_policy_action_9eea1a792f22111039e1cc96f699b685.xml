@@ -2,20 +2,20 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>false</disabled>
-        <field>m_watched</field>
-        <mandatory>true</mandatory>
+        <field>m_liked</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-15 20:00:41</sys_created_on>
-        <sys_id>fcb69a752f22111039e1cc96f699b66a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>m_watched</sys_name>
+        <sys_created_on>2022-10-15 20:17:42</sys_created_on>
+        <sys_id>9eea1a792f22111039e1cc96f699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>m_liked</sys_name>
         <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
-        <sys_update_name>sys_ui_policy_action_fcb69a752f22111039e1cc96f699b66a</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_9eea1a792f22111039e1cc96f699b685</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-15 20:17:57</sys_updated_on>
+        <sys_updated_on>2022-10-15 20:17:42</sys_updated_on>
         <table>x_882852_m_tracker_movies</table>
         <ui_policy display_value="Require Watched and Date watched when Watched by is not empty in Movie Tracker">75fb20912f6a511039e1cc96f699b6bf</ui_policy>
         <visible>ignore</visible>
