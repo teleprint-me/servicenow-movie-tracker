@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Movies" max_length="40" name="x_882852_m_tracker_movies" sizeclass="3" type="collection">
+    <element label="Movies" max_length="40" name="x_882852_m_tracker_movies" sizeclass="16" text_index="true" type="collection">
         <element label="Overview" max_length="65536" name="m_comment" read_only="true" type="html"/>
         <element attributes="encode_utf8=false" label="Created by" max_length="32" name="m_created_by" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Date watched" max_length="40" name="m_date_watched" type="glide_date"/>

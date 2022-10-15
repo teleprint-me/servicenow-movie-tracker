@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column display_value="1">dec8baa52f2a111039e1cc96f699b62a</sp_column>
+        <sp_container/>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 03:49:42</sys_created_on>
+        <sys_id>d6d87a652f2a111039e1cc96f699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sp_row_d6d87a652f2a111039e1cc96f699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 03:49:42</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</application>
+        <file_path/>
+        <instance_id>7cadfd0fdb5e881049eac59705961910</instance_id>
+        <instance_name>dev97000</instance_name>
+        <name>sp_row_d6d87a652f2a111039e1cc96f699b6ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column display_value="1">dec8baa52f2a111039e1cc96f699b62a</sp_column><sp_container/><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-15 03:49:42</sys_created_on><sys_id>d6d87a652f2a111039e1cc96f699b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package><sys_policy/><sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope><sys_update_name>sp_row_d6d87a652f2a111039e1cc96f699b6ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-15 03:49:42</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1417681945</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>52450c452f2a111039e1cc96f699b6de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 03:49:42</sys_created_on>
+        <sys_id>92d8baa52f2a111039e1cc96f699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d9c30c560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 03:49:42</sys_updated_on>
+        <type>Row</type>
+        <update_guid>dad8baa5a42a11101e40b1353af490e5</update_guid>
+        <update_guid_history>dad8baa5a42a11101e40b1353af490e5:1417681945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">23d87aa52f2a111039e1cc96f699b63c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 03:49:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>08a7b48ee2f24582ae252b399a37b2d9</sys_id>
+        <sys_metadata>d6d87a652f2a111039e1cc96f699b6ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_scope_delete display_value="">16cf1b481d4a45c08cff820dc1845b69</sys_scope_delete>
+        <sys_update_name>sp_row_d6d87a652f2a111039e1cc96f699b6ca</sys_update_name>
+        <sys_update_version display_value="sp_row_d6d87a652f2a111039e1cc96f699b6ca">92d8baa52f2a111039e1cc96f699b6e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 03:49:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

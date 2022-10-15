@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_882852_m_tracker_movies" version="2" view="upcoming_releases">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>a723d2b12f22111039e1cc96f699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_title</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>2b23d2b12f22111039e1cc96f699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_runtime</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>ab23d2b12f22111039e1cc96f699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_release_date</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>2f23d2b12f22111039e1cc96f699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_genre</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>af23d2b12f22111039e1cc96f699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>m_created_by</element>
+            <list_id display_value="x_882852_m_tracker_movies" element="NULL" name="x_882852_m_tracker_movies" parent="NULL" relationship="NULL" sys_domain="global" view="4bf25e712f22111039e1cc96f699b65a">2f23d2b12f22111039e1cc96f699b6bc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_id>2323d2b12f22111039e1cc96f699b6be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_882852_m_tracker_movies</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-15 19:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f23d2b12f22111039e1cc96f699b6bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_882852_m_tracker_movies</sys_name>
+            <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+            <sys_update_name>sys_ui_list_x_882852_m_tracker_movies_upcoming_releases</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-15 19:43:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Upcoming releases" name="upcoming_releases">4bf25e712f22111039e1cc96f699b65a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

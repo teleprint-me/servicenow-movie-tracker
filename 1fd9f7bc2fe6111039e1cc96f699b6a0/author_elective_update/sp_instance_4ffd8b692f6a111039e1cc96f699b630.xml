@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b67cc7292f6a111039e1cc96f699b6dc</sp_column>
+        <sp_widget display_value="Incident Standard Ticket Actions">9bd06ce173070010cbb654eb7df6a7d4</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 05:22:02</sys_created_on>
+        <sys_id>4ffd8b692f6a111039e1cc96f699b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sp_instance_4ffd8b692f6a111039e1cc96f699b630</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 05:22:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4ffd8b692f6a111039e1cc96f699b630"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</application>
+        <file_path/>
+        <instance_id>7cadfd0fdb5e881049eac59705961910</instance_id>
+        <instance_name>dev97000</instance_name>
+        <name>sp_instance_4ffd8b692f6a111039e1cc96f699b630</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">b67cc7292f6a111039e1cc96f699b6dc</sp_column><sp_widget display_value="Incident Standard Ticket Actions">9bd06ce173070010cbb654eb7df6a7d4</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-15 05:22:02</sys_created_on><sys_id>4ffd8b692f6a111039e1cc96f699b630</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package><sys_policy/><sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope><sys_update_name>sp_instance_4ffd8b692f6a111039e1cc96f699b630</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-15 05:22:02</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4ffd8b692f6a111039e1cc96f699b630"/></record_update>]]></payload>
+        <payload_hash>2096891880</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>52450c452f2a111039e1cc96f699b6de</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 05:22:02</sys_created_on>
+        <sys_id>0bfd8b692f6a111039e1cc96f699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183da1797d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 05:22:02</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>43fd8b69806a1110e3d641c78b770633</update_guid>
+        <update_guid_history>43fd8b69806a1110e3d641c78b770633:2096891880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">313e4b692f6a111039e1cc96f699b692</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 05:23:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4e97048cb38443069900e6e760d9c9f1</sys_id>
+        <sys_metadata>4ffd8b692f6a111039e1cc96f699b630</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_scope_delete display_value="">16cf1b481d4a45c08cff820dc1845b69</sys_scope_delete>
+        <sys_update_name>sp_instance_4ffd8b692f6a111039e1cc96f699b630</sys_update_name>
+        <sys_update_version display_value="sp_instance_4ffd8b692f6a111039e1cc96f699b630">0bfd8b692f6a111039e1cc96f699b633</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 05:23:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

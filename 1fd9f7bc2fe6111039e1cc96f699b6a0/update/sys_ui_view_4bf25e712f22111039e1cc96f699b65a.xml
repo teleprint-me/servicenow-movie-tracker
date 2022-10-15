@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>upcoming_releases</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-15 19:42:45</sys_created_on>
+        <sys_id>4bf25e712f22111039e1cc96f699b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upcoming releases</sys_name>
+        <sys_package display_value="Movie Tracker" source="x_882852_m_tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Tracker">1fd9f7bc2fe6111039e1cc96f699b6a0</sys_scope>
+        <sys_update_name>sys_ui_view_4bf25e712f22111039e1cc96f699b65a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-15 19:42:45</sys_updated_on>
+        <title>Upcoming releases</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
